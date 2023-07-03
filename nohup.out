@@ -1,0 +1,72 @@
+Watching for file changes with StatReloader
+Performing system checks...
+
+System check identified some issues:
+
+WARNINGS:
+todos.Todo: (models.W042) Auto-created primary key used when not defining a primary key type, by default 'django.db.models.AutoField'.
+	HINT: Configure the DEFAULT_AUTO_FIELD setting or the TodosConfig.default_auto_field attribute to point to a subclass of AutoField, e.g. 'django.db.models.BigAutoField'.
+
+System check identified 1 issue (0 silenced).
+July 03, 2023 - 15:03:22
+Django version 4.2.2, using settings 'todoApp.settings'
+Starting development server at http://0.0.0.0:8000/
+Quit the server with CONTROL-C.
+
+Invalid HTTP_HOST header: '54.206.18.162:8000'. You may need to add '54.206.18.162' to ALLOWED_HOSTS.
+Traceback (most recent call last):
+  File "/home/ubuntu/.local/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/ubuntu/.local/lib/python3.10/site-packages/django/utils/deprecation.py", line 133, in __call__
+    response = self.process_request(request)
+  File "/home/ubuntu/.local/lib/python3.10/site-packages/django/middleware/common.py", line 48, in process_request
+    host = request.get_host()
+  File "/home/ubuntu/.local/lib/python3.10/site-packages/django/http/request.py", line 150, in get_host
+    raise DisallowedHost(msg)
+django.core.exceptions.DisallowedHost: Invalid HTTP_HOST header: '54.206.18.162:8000'. You may need to add '54.206.18.162' to ALLOWED_HOSTS.
+Bad Request: /
+[03/Jul/2023 15:03:37] "GET / HTTP/1.1" 400 63370
+Invalid HTTP_HOST header: '54.206.18.162:8000'. You may need to add '54.206.18.162' to ALLOWED_HOSTS.
+Traceback (most recent call last):
+  File "/home/ubuntu/.local/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/ubuntu/.local/lib/python3.10/site-packages/django/utils/deprecation.py", line 133, in __call__
+    response = self.process_request(request)
+  File "/home/ubuntu/.local/lib/python3.10/site-packages/django/middleware/common.py", line 48, in process_request
+    host = request.get_host()
+  File "/home/ubuntu/.local/lib/python3.10/site-packages/django/http/request.py", line 150, in get_host
+    raise DisallowedHost(msg)
+django.core.exceptions.DisallowedHost: Invalid HTTP_HOST header: '54.206.18.162:8000'. You may need to add '54.206.18.162' to ALLOWED_HOSTS.
+Bad Request: /favicon.ico
+[03/Jul/2023 15:03:39] "GET /favicon.ico HTTP/1.1" 400 63205
+Watching for file changes with StatReloader
+Performing system checks...
+
+System check identified some issues:
+
+WARNINGS:
+todos.Todo: (models.W042) Auto-created primary key used when not defining a primary key type, by default 'django.db.models.AutoField'.
+	HINT: Configure the DEFAULT_AUTO_FIELD setting or the TodosConfig.default_auto_field attribute to point to a subclass of AutoField, e.g. 'django.db.models.BigAutoField'.
+
+System check identified 1 issue (0 silenced).
+July 03, 2023 - 15:07:28
+Django version 4.2.2, using settings 'todoApp.settings'
+Starting development server at http://0.0.0.0:8000/
+Quit the server with CONTROL-C.
+
+Watching for file changes with StatReloader
+Performing system checks...
+
+System check identified some issues:
+
+WARNINGS:
+todos.Todo: (models.W042) Auto-created primary key used when not defining a primary key type, by default 'django.db.models.AutoField'.
+	HINT: Configure the DEFAULT_AUTO_FIELD setting or the TodosConfig.default_auto_field attribute to point to a subclass of AutoField, e.g. 'django.db.models.BigAutoField'.
+
+System check identified 1 issue (0 silenced).
+July 03, 2023 - 17:09:57
+Django version 4.2.2, using settings 'todoApp.settings'
+Starting development server at http://0.0.0.0:8001/
+Quit the server with CONTROL-C.
+
+[03/Jul/2023 17:10:14] "GET /todos/ HTTP/1.1" 200 4093
